@@ -47,11 +47,7 @@
 .pediatricians-section {
   display: grid;
   grid-template-columns: 1fr;
-  background: linear-gradient(
-    90deg,
-    rgba(255, 255, 255, 1) 0%,
-    rgba(237, 237, 235, 1) 96%
-  );
+  background: $gradient-gray;
   @media screen and (min-width: $tablet) {
     grid-template-columns: repeat(2, 1fr);
   }

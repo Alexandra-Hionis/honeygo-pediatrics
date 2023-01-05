@@ -35,11 +35,7 @@
   grid-template-columns: 1fr 1fr;
   height: auto;
   font-family: $raleway;
-  background: linear-gradient(
-    90deg,
-    rgba(37, 189, 190, 1) 0%,
-    rgba(52, 152, 171, 1) 55%
-  );
+  background: $gradient-blue;
   color: white;
   filter: drop-shadow(0 0 0.05rem black);
   z-index: 1099;
@@ -65,11 +61,8 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background: linear-gradient(
-    90deg,
-    rgba(37, 189, 190, 1) 0%,
-    rgba(52, 152, 171, 1) 55%
-  );
+  background: $gradient-blue;
+  transition: 0.3s all;
 
   @media (min-width: $tablet) {
     justify-content: space-evenly;
@@ -83,8 +76,10 @@
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
+  & a:hover {
+    text-decoration: underline 3px;
+  }
 }
-
 .menu-button-container {
   display: block;
   height: 100%;
@@ -262,6 +257,9 @@
 #services {
   @media screen and (min-width: $tablet) {
     background-color: transparent !important;
+  }
+  &:hover {
+    text-decoration: underline 3px;
   }
 }
 .dropdown-content a:hover {

@@ -149,6 +149,8 @@ h1 {
   padding: 0;
   background: -webkit-gradient(linear, left top, right top, from(#25bdbe), color-stop(55%, #3498ab));
   background: linear-gradient(90deg, #25bdbe 0%, #3498ab 55%);
+  -webkit-transition: 0.3s all;
+  transition: 0.3s all;
 }
 
 @media (min-width: 768px) {
@@ -167,6 +169,11 @@ h1 {
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
+}
+
+.menu > li a:hover {
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
 }
 
 .menu-button-container {
@@ -395,6 +402,11 @@ h1 {
   #services {
     background-color: transparent !important;
   }
+}
+
+#services:hover {
+  -webkit-text-decoration: underline 3px;
+          text-decoration: underline 3px;
 }
 
 .dropdown-content a:hover {

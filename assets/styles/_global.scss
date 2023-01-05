@@ -24,13 +24,18 @@ $gradient-gray: linear-gradient(
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body,
 p,
 h1 {
   margin: 0;
   padding: 0;
 }
-
+p {
+  line-height: 1.5;
+}
 button {
   color: white;
   font-family: $montserrat;

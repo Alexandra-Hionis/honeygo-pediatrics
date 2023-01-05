@@ -149,3 +149,50 @@
   font-weight: bolder;
   text-decoration: none;
 }
+
+// Services detail CTAs
+.services-cta-section {
+  padding: 20px;
+  h1 {
+    text-align: center;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  @media screen and (min-width: $tablet) {
+    padding: 40px;
+  }
+}
+.services-detail {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  text-align: center;
+  font-family: $montserrat;
+  padding: 0px;
+  @media screen and (min-width: $tablet) {
+    padding: 40px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  @media screen and (min-width: $desktop) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.services-cta:hover {
+  transform: scale(0.8);
+  transition-delay: 0.5s ease;
+  //   transition: transform 130ms ease;
+}
+
+.service-icon {
+  color: $lightblue;
+  width: 34px !important;
+  height: 34px !important;
+}
+.service-cta-title {
+  text-transform: uppercase;
+  margin: 5px 0px;
+  font-weight: 500;
+}

@@ -23,7 +23,7 @@ class Header extends HTMLElement {
     <ul class="menu">
       <li><a href="https://www.honeygopediatricsllc.com/index.html">Home</a></li>
       <li><div class="dropdown" id="services">
-        <div onclick="toggleDropdownMenu()" class="dropbtn">Services 
+        <div onclick="toggleDropdownMenu()" class="dropbtn" id="services-text">Services 
           <i class="fa fa-caret-down"></a></i>
         </div>
         <div class="dropdown-content" id="dropdown-content">
@@ -66,15 +66,17 @@ customElements.define("main-header", Header);
 function toggleDropdownMenu() {
   const dropdown = document.getElementById("dropdown-content");
   const services = document.getElementById("services");
-
+  const servicesText = document.getElementById("services-text");
   if (dropdown.style.display == "block") {
     // if is dropdown displayed, hide it
     dropdown.style.display = "none";
     services.style.backgroundColor = "transparent";
+    servicesText.style.color = "white";
   } else {
     // if is dropdown hidden, display it
     dropdown.style.display = "block";
     services.style.backgroundColor = "#e5e7eb";
+    servicesText.style.color = "black";
   }
   // hide and shoe on resize
   if (window.matchMedia("(max-width: 768px)").matches) {

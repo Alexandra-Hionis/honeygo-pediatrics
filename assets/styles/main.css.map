@@ -1,0 +1,14 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "main.scss",
+        "_global.scss",
+        "_breakpoints.scss",
+        "_fonts.scss",
+        "_nav.scss",
+        "_footer.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

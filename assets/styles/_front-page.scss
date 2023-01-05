@@ -1,3 +1,4 @@
+// Hero Section
 .showcase {
   background-image: url(../images/hero-home.jpg);
   background-size: cover;
@@ -40,4 +41,57 @@
 .services-btn {
   display: flex;
   justify-content: center;
+}
+
+// Pediatricians section
+.pediatricians-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(237, 237, 235, 1) 96%
+  );
+  @media screen and (min-width: $tablet) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  padding: 35px 0px;
+  & .img-wrapper {
+    display: flex;
+    justify-content: center;
+    @media screen and (min-width: $tablet) {
+      display: block;
+    }
+  }
+  & img {
+    width: 90%;
+  }
+  & h1 {
+    color: #1751a3;
+  }
+  & p {
+    font-family: $montserrat;
+    line-height: 1.5;
+  }
+  & h1,
+  p {
+    text-align: center;
+    @media screen and (min-width: $tablet) {
+      text-align: left;
+    }
+  }
+  .description-wrapper {
+    padding: 25px;
+    @media screen and (min-width: $tablet) {
+      padding: 25px 50px 25px 25px;
+    }
+  }
+}
+.staff-btn {
+  display: flex;
+  justify-content: center;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    justify-content: start;
+  }
 }

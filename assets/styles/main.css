@@ -1,6 +1,11 @@
 /* ===================================== */
 /* Global Styles */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body,
 p,
 h1 {
@@ -18,6 +23,15 @@ button {
   border-radius: 4px;
   font-weight: bold;
   font-size: 16px;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 h1 {
@@ -560,5 +574,92 @@ h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.pediatricians-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(96%, #ededeb));
+  background: linear-gradient(90deg, white 0%, #ededeb 96%);
+  padding: 35px 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .pediatricians-section {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.pediatricians-section .img-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .pediatricians-section .img-wrapper {
+    display: block;
+  }
+}
+
+.pediatricians-section img {
+  width: 90%;
+}
+
+.pediatricians-section h1 {
+  color: #1751a3;
+}
+
+.pediatricians-section p {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
+.pediatricians-section h1,
+.pediatricians-section p {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .pediatricians-section h1,
+  .pediatricians-section p {
+    text-align: left;
+  }
+}
+
+.pediatricians-section .description-wrapper {
+  padding: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .pediatricians-section .description-wrapper {
+    padding: 25px 50px 25px 25px;
+  }
+}
+
+.staff-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .staff-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+  }
 }
 /*# sourceMappingURL=main.css.map */

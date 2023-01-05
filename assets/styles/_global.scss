@@ -1,9 +1,30 @@
 /* ===================================== */
 /* Global Styles */
+
+// Variables
+
+$montserrat: "Montserrat", sans-serif;
+$raleway: "Raleway", sans-serif;
+
 $darkblue: #1751a3;
 $lightblue: #329bac;
+$lightorange: #e59659;
+
 body,
-p {
+p,
+h1 {
   margin: 0;
   padding: 0;
+}
+
+button {
+  color: white;
+  font-family: $montserrat;
+  background-color: $lightorange;
+  margin-top: 20px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 16px;
 }

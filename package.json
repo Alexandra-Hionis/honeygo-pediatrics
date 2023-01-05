@@ -1,0 +1,23 @@
+{
+  "name": "honeygo-pediatrics",
+  "version": "1.0.0",
+  "description": "This is a rebuild of Honeygo Pediatrics. Code will be much cleaner. Mostly for using new components and incorporating Sass. Also for testing Heroku build with Sass.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexandra-Hionis/honeygo-pediatrics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alexandra-Hionis/honeygo-pediatrics/issues"
+  },
+  "homepage": "https://github.com/Alexandra-Hionis/honeygo-pediatrics#readme",
+  "dependencies": {
+    "sass": "^1.57.1"
+  }
+}

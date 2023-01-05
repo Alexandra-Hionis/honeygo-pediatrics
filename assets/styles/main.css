@@ -486,7 +486,7 @@ h1 {
   color: black;
 }
 
-.footer-content.footer-content-hours {
+.footer-content .footer-content-hours {
   text-align: left;
 }
 
@@ -721,5 +721,38 @@ h1 {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-size: 24px;
+}
+
+.callout-section {
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(96%, #ededeb));
+  background: linear-gradient(90deg, white 0%, #ededeb 96%);
+  text-align: center;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.callout-section span {
+  font-weight: 700;
+  color: #595959;
+  font-style: italic;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 576px) {
+  .callout-section {
+    padding: 40px;
+  }
+}
+
+.callout-section p {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 20px;
+}
+
+.phone-number a {
+  color: #e59659;
+  font-size: 22px;
+  font-weight: bolder;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */

@@ -22,7 +22,7 @@
   @media screen and (min-width: $tablet) {
     display: block;
   }
-  & a {
+  a {
     color: $lightblue;
     text-decoration: none;
   }
@@ -76,7 +76,7 @@
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
-  & a:hover {
+  a:hover {
     text-decoration: underline 3px;
   }
 }
@@ -170,7 +170,7 @@
 .phone {
   text-align: right;
   font-size: 20px;
-  & a {
+  a {
     text-decoration: none;
     color: white;
   }

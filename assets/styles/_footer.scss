@@ -32,11 +32,11 @@
   font-family: $montserrat;
   font-size: 14px;
   margin-top: 20px;
-  & a {
+  a {
     text-decoration: none;
     color: black;
   }
-  &.footer-content-hours {
+  .footer-content-hours {
     text-align: left;
   }
   text-align: center;
@@ -64,7 +64,7 @@
 .copyright {
   font-family: $montserrat;
   font-size: 12px;
-  & a {
+  a {
     text-decoration: underline;
     color: black;
     margin-left: 5px;

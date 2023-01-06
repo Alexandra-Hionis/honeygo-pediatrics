@@ -882,14 +882,7 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/testimonials-background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: bottom;
   background-size: cover !important;
-}
-
-@media screen and (min-width: 768px) {
-  .testimonials-hero {
-    background-position: center;
-  }
 }
 
 quote {

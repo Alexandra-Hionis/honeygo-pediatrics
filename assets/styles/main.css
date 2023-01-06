@@ -59,6 +59,36 @@ h1 {
 
 /* ===================================== */
 /* Breakpoints */
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.swiper-wrapper {
+  margin-top: 10vh;
+}
+
+.swiper-slide {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: white;
+}
+
 /* ===================================================================================================================== */
 /* Header: Top Portion*/
 .header {
@@ -116,8 +146,8 @@ h1 {
   background: -webkit-gradient(linear, left top, right top, from(#25bdbe), color-stop(55%, #3498ab));
   background: linear-gradient(90deg, #25bdbe 0%, #3498ab 55%);
   color: white;
-  -webkit-filter: drop-shadow(0 0 0.05rem black);
-          filter: drop-shadow(0 0 0.05rem black);
+  -webkit-filter: drop-shadow(0 0 0.2rem darkgray);
+          filter: drop-shadow(0 0 0.2rem darkgray);
   z-index: 1099;
   padding: 20px;
   font-size: 28px;
@@ -429,8 +459,6 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   padding: 1.25rem 0;
-  -webkit-filter: drop-shadow(0 0 0.15rem black);
-          filter: drop-shadow(0 0 0.15rem black);
   z-index: -10;
   position: relative;
 }
@@ -826,5 +854,72 @@ h1 {
   text-transform: uppercase;
   margin: 5px 0px;
   font-weight: 500;
+}
+
+/* Testimonials */
+.custom-shape-divider-top-1642795764 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1642795764 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 66px;
+}
+
+.custom-shape-divider-top-1642795764 .shape-fill {
+  fill: #ffffff;
+}
+
+.testimonials {
+  position: relative;
+  height: 100%;
+}
+
+.testimonials-hero {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/testimonials-background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/testimonials-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: cover;
+  padding-bottom: 20vh;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-hero {
+    background-position: center;
+  }
+}
+
+quote {
+  font-family: "arial";
+  font-weight: bold;
+  font-size: 100px;
+  color: white;
+  margin-bottom: 0;
+}
+
+.testimonials p {
+  padding: 0 60px;
+  font-weight: bold;
+  line-height: 1.7;
+  color: white;
+  margin-bottom: 20px;
+  max-width: 750px;
+  font-family: "Raleway", sans-serif;
+}
+
+.testimonial-author {
+  font-size: 14px;
+  color: white;
+  opacity: 0.5;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
 }
 /*# sourceMappingURL=main.css.map */

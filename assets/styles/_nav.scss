@@ -37,7 +37,7 @@
   font-family: $raleway;
   background: $gradient-blue;
   color: white;
-  filter: drop-shadow(0 0 0.05rem black);
+  filter: drop-shadow(0 0 0.2rem darkgray);
   z-index: 1099;
   padding: 20px;
   font-size: 28px;
@@ -275,7 +275,6 @@
   text-transform: uppercase;
   text-align: center;
   padding: 1.25rem 0;
-  filter: drop-shadow(0 0 0.15rem black);
   z-index: -10;
   position: relative;
 }

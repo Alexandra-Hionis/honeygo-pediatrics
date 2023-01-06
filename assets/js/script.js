@@ -1,3 +1,20 @@
+// ==============================================
+// Swiper.js
+
+var swiper = new Swiper(".swiper-container", {
+  speed: 500,
+  // effect: "fade",
+  autoplay: {
+    delay: 8000,
+    disableOnInteraction: false,
+  },
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});
+
+// ==============================================
 // Mapbox
 
 mapboxgl.accessToken =

@@ -228,9 +228,10 @@
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
-  padding-bottom: 20vh;
+  padding-bottom: 2vh;
   @media screen and (min-width: $tablet) {
     background-position: center;
+    padding-bottom: 20vh;
   }
 }
 quote {

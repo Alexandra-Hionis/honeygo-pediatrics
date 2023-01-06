@@ -888,12 +888,13 @@ h1 {
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover;
-  padding-bottom: 20vh;
+  padding-bottom: 2vh;
 }
 
 @media screen and (min-width: 768px) {
   .testimonials-hero {
     background-position: center;
+    padding-bottom: 20vh;
   }
 }
 

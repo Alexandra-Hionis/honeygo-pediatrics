@@ -65,6 +65,10 @@ h1 {
   overflow: hidden;
 }
 
+.swiper-wrapper {
+  margin-top: 10vh;
+}
+
 .swiper-slide {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -882,6 +886,12 @@ h1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/testimonials-background.jpg);
   background-position: center;
   background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-hero {
+    padding-bottom: 20vh;
+  }
 }
 
 quote {

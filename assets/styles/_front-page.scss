@@ -224,10 +224,10 @@
 .testimonials-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
     url(../images/testimonials-background.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  //   background-repeat: no-repeat;
+  //   background-attachment: fixed;
   //   background-position: bottom;
-  //   background-size: cover;
+  background-size: cover;
   //   padding-bottom: 2vh;
   @media screen and (min-width: $tablet) {
     // background-position: center;

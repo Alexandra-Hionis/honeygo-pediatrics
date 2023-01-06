@@ -226,11 +226,11 @@
     url(../images/testimonials-background.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  //   background-position: bottom;
-  background-size: cover;
+  background-position: bottom;
+  background-size: cover !important;
   padding-bottom: 2vh;
   @media screen and (min-width: $tablet) {
-    // background-position: center;
+    background-position: center;
     padding-bottom: 20vh;
   }
 }

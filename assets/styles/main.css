@@ -880,7 +880,16 @@ h1 {
 .testimonials-hero {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5))), url(../images/testimonials-background.jpg);
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)), url(../images/testimonials-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
   background-size: cover !important;
+}
+
+@media screen and (min-width: 768px) {
+  .testimonials-hero {
+    background-position: center;
+  }
 }
 
 quote {
@@ -892,6 +901,7 @@ quote {
 }
 
 .testimonials p {
+  padding: 0 60px;
   font-weight: bold;
   line-height: 1.7;
   color: white;

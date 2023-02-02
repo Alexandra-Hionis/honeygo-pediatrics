@@ -179,10 +179,17 @@
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
+.services-cta {
+  transition: 1s;
+  border-radius: 10px;
+  padding: 10px;
+}
 
 .services-cta:hover {
-  transform: scale(0.8);
-  transition-delay: 0.5s ease;
+  //   transform: scale(0.8);
+  //   transition-delay: 0.5s ease;
+  background-color: #ededeb;
+
   //   transition: transform 130ms ease;
 }
 

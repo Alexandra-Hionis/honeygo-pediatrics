@@ -209,11 +209,6 @@ h1 {
   overflow: hidden;
 }
 
-.menu > li a:hover {
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
-}
-
 .menu-button-container {
   display: block;
   height: 100%;
@@ -440,11 +435,6 @@ h1 {
   #services {
     background-color: transparent !important;
   }
-}
-
-#services:hover {
-  -webkit-text-decoration: underline 3px;
-          text-decoration: underline 3px;
 }
 
 .dropdown-content a:hover {
@@ -837,11 +827,15 @@ h1 {
   }
 }
 
+.services-cta {
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 10px;
+  padding: 10px;
+}
+
 .services-cta:hover {
-  -webkit-transform: scale(0.8);
-          transform: scale(0.8);
-  -webkit-transition-delay: 0.5s ease;
-          transition-delay: 0.5s ease;
+  background-color: #ededeb;
 }
 
 .service-icon {

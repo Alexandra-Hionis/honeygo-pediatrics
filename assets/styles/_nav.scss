@@ -76,9 +76,6 @@
 .menu > li {
   margin: 0 1rem;
   overflow: hidden;
-  a:hover {
-    text-decoration: underline 3px;
-  }
 }
 .menu-button-container {
   display: block;
@@ -257,9 +254,6 @@
 #services {
   @media screen and (min-width: $tablet) {
     background-color: transparent !important;
-  }
-  &:hover {
-    text-decoration: underline 3px;
   }
 }
 .dropdown-content a:hover {

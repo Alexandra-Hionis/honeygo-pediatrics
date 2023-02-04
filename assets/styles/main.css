@@ -1,4 +1,6 @@
 /* ===================================== */
+/* Breakpoints */
+/* ===================================== */
 /* Global Styles */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Raleway:wght@400;700&display=swap");
 * {
@@ -10,15 +12,25 @@ html {
   scroll-behavior: smooth;
 }
 
-body,
-p,
-h1 {
+body {
   margin: 0;
   padding: 0;
 }
 
-p {
-  line-height: 1.5;
+.page-container {
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-container {
+    padding: 0 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .page-container {
+    padding: 0 80px;
+  }
 }
 
 button {
@@ -49,16 +61,62 @@ button:hover {
           justify-content: center;
 }
 
+.hero {
+  position: relative;
+  text-align: center;
+}
+
+.hero img {
+  width: 100%;
+}
+
 h1 {
   line-height: 1.2;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   color: #329bac;
   font-size: 36px;
+  text-transform: capitalize;
 }
 
-/* ===================================== */
-/* Breakpoints */
+h2 {
+  font-family: "Raleway", sans-serif;
+  color: #329bac;
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 18px;
+  color: #375141;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.hero h1 {
+  margin: 0;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .hero h1 {
+    font-size: 36px;
+  }
+}
+
+p {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -912,5 +970,43 @@ quote {
   opacity: 0.5;
   font-weight: bold;
   font-family: "Montserrat", sans-serif;
+}
+
+.providers__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  gap: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .providers__container {
+    -ms-grid-columns: 1fr 2fr;
+        grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .providers__img-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.providers img {
+  border-radius: 10px;
+  width: 80%;
+  margin-top: 15px;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .providers img {
+    width: 50%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

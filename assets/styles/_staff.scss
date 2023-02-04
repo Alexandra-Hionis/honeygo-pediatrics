@@ -1,0 +1,24 @@
+.providers {
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    @media screen and (min-width: $tablet) {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  &__img-wrapper {
+    @media screen and (max-width: $tablet) {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  img {
+    border-radius: 10px;
+    width: 80%;
+    margin-top: 15px;
+    @media (min-width: $mobile) and (max-width: $tablet) {
+      width: 50%;
+    }
+  }
+}

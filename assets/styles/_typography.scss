@@ -4,4 +4,38 @@ h1 {
   font-family: $raleway;
   color: $lightblue;
   font-size: 36px;
+  text-transform: capitalize;
+}
+h2 {
+  font-family: $raleway;
+  color: $lightblue;
+  font-size: 20px;
+}
+h3 {
+  font-size: 18px;
+  color: #375141;
+  font-family: $raleway;
+  font-weight: 700;
+}
+.hero {
+  h1 {
+    margin: 0;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: $roboto;
+    font-weight: 400;
+    font-size: 24px;
+    @media screen and (min-width: $tablet) {
+      font-size: 36px;
+    }
+  }
+}
+
+p {
+  font-size: 16px;
+  font-family: $montserrat;
+  line-height: 1.5;
 }

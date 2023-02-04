@@ -15,7 +15,7 @@ class Header extends HTMLElement {
   </section>
 
   <section class="navbar">
-  <div>
+  <nav>
   <input id="menu-toggle" type="checkbox" />
     <label class='menu-button-container' for="menu-toggle">
     <div class='menu-button'></div>
@@ -47,7 +47,7 @@ class Header extends HTMLElement {
       <li><a href="https://www.honeygopediatricsllc.com/insurance.html">Insurance & Payment</a></li>
       <li><a href="https://www.honeygopediatricsllc.com/contact.html">Contact</a></li>
     </ul>
-  </div>
+  </nav>
   <div class="phone">
     <a href="tel:4109338101"> 410-933-8101</a>
   </div>

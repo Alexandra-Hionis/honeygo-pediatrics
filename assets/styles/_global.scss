@@ -5,6 +5,7 @@
 
 $montserrat: "Montserrat", sans-serif;
 $raleway: "Raleway", sans-serif;
+$roboto: "Roboto", sans-serif;
 
 $darkblue: #1751a3;
 $lightblue: #329bac;
@@ -27,15 +28,20 @@ $gradient-gray: linear-gradient(
 html {
   scroll-behavior: smooth;
 }
-body,
-p,
-h1 {
+body {
   margin: 0;
   padding: 0;
 }
-p {
-  line-height: 1.5;
+.page-container {
+  padding: 0 20px;
+  @media screen and (min-width: $tablet) {
+    padding: 0 50px;
+  }
+  @media screen and (min-width: $desktop) {
+    padding: 0 80px;
+  }
 }
+
 button {
   color: white;
   font-family: $montserrat;
@@ -55,4 +61,14 @@ button:hover {
 .center {
   display: flex;
   justify-content: center;
+}
+
+// components
+.hero {
+  position: relative;
+  text-align: center;
+
+  img {
+    width: 100%;
+  }
 }

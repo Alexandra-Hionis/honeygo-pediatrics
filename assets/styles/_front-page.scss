@@ -186,11 +186,7 @@
 }
 
 .services-cta:hover {
-  //   transform: scale(0.8);
-  //   transition-delay: 0.5s ease;
   background-color: #ededeb;
-
-  //   transition: transform 130ms ease;
 }
 
 .service-icon {
@@ -206,7 +202,6 @@
 
 /* Testimonials */
 .custom-shape-divider-top-1642795764 {
-  //   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -231,11 +226,8 @@
 .testimonials-hero {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5)),
     url(../images/testimonials-background.jpg);
-  //   background-repeat: no-repeat;
-  //   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  //   padding-bottom: 2vh;
   @media screen and (min-width: $tablet) {
     padding-bottom: 20vh;
   }

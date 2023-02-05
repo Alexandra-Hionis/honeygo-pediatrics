@@ -4,7 +4,7 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <!-- Footer -->
-    <section class="footer">
+    <section class="footer gradient-gray">
       <div class="footer-top-portion">
         <!-- Contact -->
         <div class="footer-item-container"><div class="footer-item">
@@ -43,7 +43,8 @@ class Footer extends HTMLElement {
           </div>
        
         <!-- Map -->
-        <div class="footer-item-container"><div class="footer-item">
+        <div class="footer-item-container">
+        <div class="footer-item">
           <div class="footer-heading">Map</div>
           <div class="footer-content">
           <div id="map" style="width: 230px; height: 200px;"></div>

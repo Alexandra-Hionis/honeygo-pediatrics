@@ -17,19 +17,25 @@ body {
   padding: 0;
 }
 
+ul {
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+}
+
 .page-container {
-  padding: 0 20px;
+  padding: 0px 20px;
 }
 
 @media screen and (min-width: 768px) {
   .page-container {
-    padding: 0 50px;
+    padding: 0px 50px;
   }
 }
 
 @media screen and (min-width: 992px) {
   .page-container {
-    padding: 0 80px;
+    padding: 0px 80px;
   }
 }
 
@@ -61,6 +67,31 @@ button:hover {
           justify-content: center;
 }
 
+.gradient-gray {
+  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(96%, #ededeb));
+  background: linear-gradient(90deg, white 0%, #ededeb 96%);
+  padding: 10px 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .gradient-gray {
+    padding: 10px 50px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .gradient-gray {
+    padding: 20px 80px;
+  }
+}
+
+.phone-number a {
+  color: #e59659;
+  font-size: 18px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
 .hero {
   position: relative;
   text-align: center;
@@ -77,6 +108,12 @@ h1 {
   color: #329bac;
   font-size: 36px;
   text-transform: capitalize;
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    text-align: center;
+  }
 }
 
 h2 {
@@ -512,8 +549,6 @@ p {
 }
 
 .footer {
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(96%, #ededeb));
-  background: linear-gradient(90deg, white 0%, #ededeb 96%);
   padding: 5vh 0;
 }
 
@@ -684,8 +719,6 @@ p {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(96%, #ededeb));
-  background: linear-gradient(90deg, white 0%, #ededeb 96%);
   padding: 35px 0px;
 }
 
@@ -808,8 +841,6 @@ p {
 }
 
 .callout-section {
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(96%, #ededeb));
-  background: linear-gradient(90deg, white 0%, #ededeb 96%);
   text-align: center;
   font-size: 16px;
   padding: 20px;
@@ -833,11 +864,8 @@ p {
   margin-top: 20px;
 }
 
-.phone-number a {
-  color: #e59659;
+.home .phone-number a {
   font-size: 22px;
-  font-weight: bolder;
-  text-decoration: none;
 }
 
 .services-cta-section {
@@ -999,8 +1027,6 @@ quote {
   -webkit-box-ordinal-group: 3;
       -ms-flex-order: 2;
           order: 2;
-  background: -webkit-gradient(linear, left top, right top, from(white), color-stop(96%, #ededeb));
-  background: linear-gradient(90deg, white 0%, #ededeb 96%);
 }
 
 @media screen and (min-width: 768px) {
@@ -1040,5 +1066,47 @@ quote {
         -ms-flex-order: 2;
             order: 2;
   }
+}
+
+.contact a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  line-height: 1.5;
+  color: black;
+}
+
+.contact__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+}
+
+@media screen and (min-width: 945px) {
+  .contact__container {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+.contact .small-font {
+  font-size: 14px;
+}
+
+.contact__map-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contact__info p {
+  line-height: 1;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */

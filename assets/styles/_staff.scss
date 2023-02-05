@@ -11,7 +11,6 @@
     }
     &:nth-child(even) {
       order: 2;
-      background: $gradient-gray;
       @media screen and (min-width: $tablet) {
         grid-template-columns: 2fr 1fr;
       }

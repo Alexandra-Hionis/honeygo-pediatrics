@@ -1,0 +1,29 @@
+.contact {
+  a {
+    font-family: $montserrat;
+    text-decoration: none;
+    line-height: 1.5;
+    color: black;
+  }
+  &__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    // where I thought it looks best to break down
+    @media screen and (min-width: 945px) {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  .small-font {
+    font-size: 14px;
+  }
+  &__map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__info p {
+    line-height: 1;
+    font-size: 14px;
+  }
+}

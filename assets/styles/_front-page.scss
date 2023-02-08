@@ -107,6 +107,9 @@
   position: relative;
   text-align: center;
   color: white;
+  img {
+    filter: brightness(50%);
+  }
 }
 .card-container:hover {
   filter: brightness(125%);

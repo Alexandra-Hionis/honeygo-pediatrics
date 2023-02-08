@@ -823,6 +823,11 @@ p {
   color: white;
 }
 
+.card-container img {
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
 .card-container:hover {
   -webkit-filter: brightness(125%);
           filter: brightness(125%);

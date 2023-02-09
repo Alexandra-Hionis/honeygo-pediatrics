@@ -95,9 +95,12 @@ button:hover {
 .hero {
   position: relative;
   text-align: center;
+  z-index: -1;
 }
 
 .hero img {
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
   width: 100%;
 }
 
@@ -441,7 +444,7 @@ p {
   outline: none;
   color: white;
   background-color: inherit;
-  font-size: 28px;
+  font-size: 16px;
   width: 100%;
   text-align: center;
   cursor: pointer;
@@ -482,17 +485,17 @@ p {
   margin-left: 0px;
   text-align: center;
   border-radius: none;
-  font-size: 28px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .dropdown-content {
     position: absolute;
-    z-index: 100;
+    z-index: 1009;
     margin-top: 25px;
     text-align: left;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 28px;
     background: -webkit-gradient(linear, left top, right top, from(#25bdbe), color-stop(55%, #3498ab));
     background: linear-gradient(90deg, #25bdbe 0%, #3498ab 55%);
   }
@@ -513,11 +516,13 @@ p {
 .dropdwn-menu-container a {
   line-height: 3.25rem;
   padding: 0.5rem 1rem;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
   .dropdwn-menu-container a {
     line-height: 1.25rem;
+    font-size: 28px;
   }
 }
 

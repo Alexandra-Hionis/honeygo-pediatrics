@@ -88,8 +88,11 @@ button:hover {
 .hero {
   position: relative;
   text-align: center;
+  // hide under nav dropdown on mobile
+  z-index: -1;
 
   img {
+    filter: brightness(70%);
     width: 100%;
   }
 }

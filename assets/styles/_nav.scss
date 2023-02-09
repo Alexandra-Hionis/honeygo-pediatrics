@@ -70,6 +70,10 @@
   &.menu a {
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    @media (min-width: $tablet) {
+      font-size: 16px;
+    }
   }
 }
 
@@ -136,8 +140,6 @@
   }
   .menu {
     position: absolute;
-    // top: 1;
-    // margin-top: 60px;
     left: 0;
     flex-direction: column;
     width: 100%;
@@ -183,14 +185,14 @@
   outline: none;
   color: white;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
   width: 100%;
   text-align: center;
   cursor: pointer;
   @media (min-width: $tablet) {
     grid-template-columns: 1fr;
     width: auto;
-    font-size: 18px;
+    font-size: 16px;
   }
   @media (min-width: $xlarge-desktop) {
     font-size: 24px;
@@ -217,14 +219,13 @@
   margin-left: 0px;
   text-align: center;
   border-radius: none;
-  font-size: 16px;
+  font-size: 20px;
   @media screen and (min-width: $tablet) {
     position: absolute;
     z-index: 1009;
     margin-top: 25px;
     text-align: left;
     border-radius: 10px;
-    font-size: 28px;
     background: linear-gradient(
       90deg,
       rgba(37, 189, 190, 1) 0%,
@@ -232,7 +233,7 @@
     );
   }
   @media (min-width: $xlarge-desktop) {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 /* Services Dropdown menu */
@@ -242,10 +243,10 @@
 .dropdwn-menu-container a {
   line-height: 3.25rem;
   padding: 0.5rem 1rem;
-  font-size: 16px;
+  font-size: 20px;
   @media screen and (min-width: $tablet) {
     line-height: 1.25rem;
-    font-size: 28px;
+    font-size: 16px;
   }
 }
 .dropdwn-menu-container a:hover {

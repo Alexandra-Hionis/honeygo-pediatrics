@@ -300,6 +300,13 @@ p {
 .menu.menu a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .menu.menu a {
+    font-size: 16px;
+  }
 }
 
 .menu > li {
@@ -444,7 +451,7 @@ p {
   outline: none;
   color: white;
   background-color: inherit;
-  font-size: 16px;
+  font-size: 20px;
   width: 100%;
   text-align: center;
   cursor: pointer;
@@ -455,7 +462,7 @@ p {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     width: auto;
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 
@@ -485,7 +492,7 @@ p {
   margin-left: 0px;
   text-align: center;
   border-radius: none;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -495,7 +502,6 @@ p {
     margin-top: 25px;
     text-align: left;
     border-radius: 10px;
-    font-size: 28px;
     background: -webkit-gradient(linear, left top, right top, from(#25bdbe), color-stop(55%, #3498ab));
     background: linear-gradient(90deg, #25bdbe 0%, #3498ab 55%);
   }
@@ -503,7 +509,7 @@ p {
 
 @media (min-width: 1900px) {
   .dropdown-content {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -516,13 +522,13 @@ p {
 .dropdwn-menu-container a {
   line-height: 3.25rem;
   padding: 0.5rem 1rem;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 @media screen and (min-width: 768px) {
   .dropdwn-menu-container a {
     line-height: 1.25rem;
-    font-size: 28px;
+    font-size: 16px;
   }
 }
 

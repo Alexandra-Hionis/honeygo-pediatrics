@@ -21,31 +21,31 @@ class Header extends HTMLElement {
     <div class='menu-button'></div>
   </label>
     <ul class="menu">
-      <li><a href="/index.html">Home</a></li>
+      <li><a href="/Users/alexandrahionis/repos/honeygo-pediatrics/index.html">Home</a></li>
       <li><div class="dropdown" id="services">
         <div onclick="toggleDropdownMenu()" class="dropbtn" id="services-text">Services 
           <i class="fa fa-caret-down"></a></i>
         </div>
         <div class="dropdown-content" id="dropdown-content">
         <div class="dropdwn-menu-container">
-        <a href="/new-patients.html">New Patients</a>
-        <a href="/newborn.html">Newborn Care</a>
-        <a href="/well-visits.html">Well Visits</a>
-        <a href="/sick-visits.html">Sick Visits</a>
-        <a href="/annual-physical.html">Annual Physical</a>
-        <a href="/work-school-travel-exams.html">Work, School, And Travel Exams</a>
-        <a href="/sport-physicals.html">School & Sports Physicals</a>
-        <a href="/immunizations-and-shots.html">Immunizations</a>
-        <a href="/virtual-medical-services.html">Virtual Medical Services</a>
-        <a href="/additional-services.html">Additional Services</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/new-patients.html">New Patients</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/newborn.html">Newborn Care</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/well-visits.html">Well Visits</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/sick-visits.html">Sick Visits</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/annual-physical.html">Annual Physical</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/work-school-travel-exams.html">Work, School, And Travel Exams</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/sport-physicals.html">School & Sports Physicals</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/immunizations-and-shots.html">Immunizations</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/virtual-medical-services.html">Virtual Medical Services</a>
+        <a href="/Users/alexandrahionis/repos/honeygo-pediatrics/additional-services.html">Additional Services</a>
         <a href="https://www.aap.org/" target="_blank">Resources</a>
       </div>
     </div>
   </div>
   </li>       
-      <li><a href="/staff.html">Our Staff</a></li>
-      <li><a href="/insurance.html">Insurance & Payment</a></li>
-      <li><a href="/contact.html">Contact</a></li>
+      <li><a href="/Users/alexandrahionis/repos/honeygo-pediatrics/staff.html">Our Staff</a></li>
+      <li><a href="/Users/alexandrahionis/repos/honeygo-pediatrics/insurance.html">Insurance & Payment</a></li>
+      <li><a href="/Users/alexandrahionis/repos/honeygo-pediatrics/contact.html">Contact</a></li>
     </ul>
   </nav>
   <div class="phone">

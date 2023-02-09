@@ -43,9 +43,9 @@ class Header extends HTMLElement {
     </div>
   </div>
   </li>       
-      <li><a href="https://www.honeygopediatricsllc.com/staff.html">Our Staff</a></li>
-      <li><a href="https://www.honeygopediatricsllc.com/insurance.html">Insurance & Payment</a></li>
-      <li><a href="https://www.honeygopediatricsllc.com/contact.html">Contact</a></li>
+      <li><a href="/staff.html">Our Staff</a></li>
+      <li><a href="/insurance.html">Insurance & Payment</a></li>
+      <li><a href="/contact.html">Contact</a></li>
     </ul>
   </nav>
   <div class="phone">

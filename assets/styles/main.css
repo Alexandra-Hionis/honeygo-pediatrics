@@ -85,7 +85,8 @@ button:hover {
   }
 }
 
-.phone-number a {
+.phone-number a,
+.in-text-link {
   color: #e59659;
   font-size: 18px;
   font-weight: bolder;

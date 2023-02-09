@@ -21,23 +21,23 @@ class Header extends HTMLElement {
     <div class='menu-button'></div>
   </label>
     <ul class="menu">
-      <li><a href="https://www.honeygopediatricsllc.com/index.html">Home</a></li>
+      <li><a href="/index.html">Home</a></li>
       <li><div class="dropdown" id="services">
         <div onclick="toggleDropdownMenu()" class="dropbtn" id="services-text">Services 
           <i class="fa fa-caret-down"></a></i>
         </div>
         <div class="dropdown-content" id="dropdown-content">
         <div class="dropdwn-menu-container">
-        <a href="https://www.honeygopediatricsllc.com/new-patients.html">New Patients</a>
-        <a href="https://www.honeygopediatricsllc.com/newborn.html">Newborn Care</a>
-        <a href="https://www.honeygopediatricsllc.com/well-visits.html">Well Visits</a>
-        <a href="https://www.honeygopediatricsllc.com/sick-visits.html">Sick Visits</a>
-        <a href="https://www.honeygopediatricsllc.com/annual-physical.html">Annual Physical</a>
-        <a href="https://www.honeygopediatricsllc.com/work-school-travel-exams.html">Work, School, And Travel Exams</a>
-        <a href="https://www.honeygopediatricsllc.com/sport-physicals.html">School & Sports Physicals</a>
-        <a href="https://www.honeygopediatricsllc.com/immunizations-and-shots.html">Immunizations</a>
-        <a href="https://www.honeygopediatricsllc.com/virtual-medical-services.html">Virtual Medical Services</a>
-        <a href="https://www.honeygopediatricsllc.com/additional-services.html">Additional Services</a>
+        <a href="/new-patients.html">New Patients</a>
+        <a href="/newborn.html">Newborn Care</a>
+        <a href="/well-visits.html">Well Visits</a>
+        <a href="/sick-visits.html">Sick Visits</a>
+        <a href="/annual-physical.html">Annual Physical</a>
+        <a href="/work-school-travel-exams.html">Work, School, And Travel Exams</a>
+        <a href="/sport-physicals.html">School & Sports Physicals</a>
+        <a href="/immunizations-and-shots.html">Immunizations</a>
+        <a href="/virtual-medical-services.html">Virtual Medical Services</a>
+        <a href="/additional-services.html">Additional Services</a>
         <a href="https://www.aap.org/" target="_blank">Resources</a>
       </div>
     </div>

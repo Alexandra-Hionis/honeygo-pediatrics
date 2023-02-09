@@ -29,3 +29,15 @@ var map = new mapboxgl.Map({
 const marker = new mapboxgl.Marker()
   .setLngLat([-76.47251, 39.37124])
   .addTo(map);
+
+// large map on contact page. To reuse, changed variable to map2 and marker2 hacky fix
+var map2 = new mapboxgl.Map({
+  container: "map2",
+  style: "mapbox://styles/mapbox/streets-v11",
+  center: [-76.47251, 39.37124], // starting position [lng, lat]
+  zoom: 14,
+});
+
+const marker2 = new mapboxgl.Marker()
+  .setLngLat([-76.47251, 39.37124])
+  .addTo(map2);

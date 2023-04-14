@@ -37,7 +37,7 @@
   font-family: $raleway;
   background: $gradient-blue;
   color: white;
-  filter: drop-shadow(0 0 0.2rem darkgray);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   z-index: 1099;
   padding: 20px;
   font-size: 28px;

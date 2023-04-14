@@ -10,8 +10,8 @@
       grid-template-columns: 1fr 2fr;
     }
     &:nth-child(even) {
-      // order: 2;
-      @media screen and (min-width: $tablet) {
+      order: 2;
+      @media screen and (min-width: 769px) {
         grid-template-columns: 2fr 1fr;
       }
     }
@@ -24,13 +24,16 @@
   }
   img {
     border-radius: 10px;
-    width: 80%;
+    width: 40%;
     margin: 15px 0;
-    @media (min-width: $mobile) and (max-width: $tablet) {
-      width: 50%;
-    }
-    @media (max-width: $mobile) {
+    @media (min-width: $tablet) and (max-width: $desktop) {
       width: 60%;
+    }
+    @media screen and (min-width: $desktop) {
+      width: 60%;
+    }
+    @media screen and (min-width: $xlarge-desktop) {
+      width: 30%;
     }
   }
   &__content {

@@ -190,8 +190,15 @@
 
 .service-icon {
   color: $lightblue;
-  width: 34px !important;
-  height: 34px !important;
+  padding-bottom: 10px;
+}
+.fa-classic,
+.fa-regular,
+.fa-solid,
+.far,
+.fas {
+  font-family: "Font Awesome 6 Free";
+  font-size: 35px;
 }
 .service-cta-title {
   text-transform: uppercase;

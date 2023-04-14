@@ -39,7 +39,7 @@ ul {
   }
 }
 
-button {
+.button {
   color: white;
   font-family: "Montserrat", sans-serif;
   background-color: #e59659;
@@ -54,7 +54,7 @@ button {
   transition: 0.3s all;
 }
 
-button:hover {
+.button:hover {
   background: #f7941e;
 }
 
@@ -943,8 +943,16 @@ p {
 
 .service-icon {
   color: #329bac;
-  width: 34px !important;
-  height: 34px !important;
+  padding-bottom: 10px;
+}
+
+.fa-classic,
+.fa-regular,
+.fa-solid,
+.far,
+.fas {
+  font-family: "Font Awesome 6 Free";
+  font-size: 35px;
 }
 
 .service-cta-title {

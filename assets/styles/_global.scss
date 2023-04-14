@@ -47,7 +47,7 @@ ul {
   }
 }
 
-button {
+.button {
   color: white;
   font-family: $montserrat;
   background-color: $lightorange;
@@ -60,7 +60,7 @@ button {
   cursor: pointer;
   transition: 0.3s all;
 }
-button:hover {
+.button:hover {
   background: #f7941e;
 }
 .center {

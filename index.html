@@ -9,16 +9,19 @@
       href="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css"
       rel="stylesheet"
     />
-    <!-- Swiper js -->
+    <!-- Swiper -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <!-- Font Awesome -->
-    <script
-      src="https://kit.fontawesome.com/869c96fec9.js"
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
       crossorigin="anonymous"
-    ></script>
+      referrerpolicy="no-referrer"
+    />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/styles/main.css" />
     <title>Honeygo Pediatrics</title>
@@ -54,7 +57,7 @@
             </p>
             <div class="services-btn">
               <!-- See more button smooth scroll to services section-->
-              <a href="#overview"><button>Services</button></a>
+              <a href="#overview"><button class="button">Services</button></a>
             </div>
           </div>
         </div>
@@ -81,7 +84,7 @@
         <br />
         <div class="staff-btn">
           <a href="https://www.honeygopediatricsllc.com/staff.html">
-            <button>Meet Our Staff</button>
+            <button class="button">Meet Our Staff</button>
           </a>
         </div>
       </div>
@@ -169,7 +172,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-band-aid service-icon"></i>
+              <i class="fa-solid fa-bandage service-icon"></i>
               <p class="service-cta-title">Well Visits</p>
               <p>
                 Well visits are crucial to your the child's growth and
@@ -182,7 +185,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-viruses service-icon"></i>
+              <i class="fa-solid fa-virus service-icon"></i>
               <p class="service-cta-title">Sick Visits</p>
               <p>
                 Is your child feeling under the weather? Schedule a sick
@@ -195,7 +198,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-weight service-icon"></i>
+              <i class="fa-solid fa-weight-scale service-icon"></i>
               <p class="service-cta-title">Annual Physical</p>
               <p>
                 Is your child feeling under the weather? Schedule a sick
@@ -208,7 +211,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-syringe service-icon"></i>
+              <i class="fa-solid fa-syringe service-icon"></i>
               <p class="service-cta-title">Immunizations and flu shots</p>
               <p>
                 Flu shots and other vaccines. COVID-19 PFIZER VACCINES - now
@@ -235,7 +238,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-notes-medical service-icon"></i>
+              <i class="fa-solid fa-notes-medical service-icon"></i>
               <p class="service-cta-title">Work, School, And Travel Exams</p>
               <p>
                 Children should have a medical examination prior to attending
@@ -249,7 +252,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-baby service-icon"></i>
+              <i class="fa-solid fa-baby service-icon"></i>
               <p class="service-cta-title">Newborn Care</p>
               <p>
                 Having a new baby can evoke excitement as well as trepidation.
@@ -262,7 +265,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-phone-laptop service-icon"></i>
+              <i class="fa-solid fa-house-laptop service-icon"></i>
               <p class="service-cta-title">Telehealth Visits</p>
               <p>
                 Ask about our virtual medical services. Telemedicine is
@@ -275,7 +278,7 @@
         <div class="services-cta">
           <a href="https://www.honeygopediatricsllc.com/well-visits.html">
             <div>
-              <i class="far fa-smile-plus service-icon"></i>
+              <i class="fa-regular fa-face-smile service-icon"></i>
               <p class="service-cta-title">New Patients</p>
               <p>
                 We're accepting new patients! We look forward to meeting the
@@ -373,12 +376,24 @@
     <main-footer></main-footer>
 
     <!-- Script.js -->
-
+    <!-- Accessibility -->
+    <script
+      type="text/javascript"
+      src="node_modules/accessibility/dist/main.bundle.js"
+    ></script>
     <!-- Mapbox -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
     <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
+    <script>
+      window.addEventListener(
+        "load",
+        function () {
+          new Accessibility();
+        },
+        false
+      );
+    </script>
     <!-- JS -->
     <script type="text/javascript" src="assets/js/header.js"></script>
     <script type="text/javascript" src="assets/js/footer.js"></script>

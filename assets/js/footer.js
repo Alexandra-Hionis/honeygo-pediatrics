@@ -26,7 +26,7 @@ class Footer extends HTMLElement {
                 <span>Tuesday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 AM - 5:00 PM</span>
               </div>
               <div>
-                <span>Wednesday &nbsp; &nbsp; &nbsp; 9:00 AM - 8:00 PM **</span>
+                <span>Wednesday &nbsp; &nbsp; &nbsp; 9:00 AM - 8:00 PM</span>
               </div>
               <div>
                 <span>Thursday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 AM - 5:00 PM</span>
@@ -37,7 +37,7 @@ class Footer extends HTMLElement {
               <div>
                 <span>Saturday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 AM - 12:30 PM</span>
               </div>
-              <p class="hours-disclaimer">** Rotating Monday and Wednesday<br>for evening hours (5PM - 8PM).</p>
+              <p class="hours-disclaimer">** Rotating Mondays for evening hours (5PM - 8PM).</p>
             </div>
             </div>
           </div>

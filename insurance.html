@@ -88,12 +88,24 @@
     <main-footer></main-footer>
 
     <!-- Script.js -->
-
+    <!-- Accessibility -->
+    <script
+      type="text/javascript"
+      src="node_modules/accessibility/dist/main.bundle.js"
+    ></script>
     <!-- Mapbox -->
     <script src="https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js"></script>
     <!-- Swiper -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-
+    <script>
+      window.addEventListener(
+        "load",
+        function () {
+          new Accessibility();
+        },
+        false
+      );
+    </script>
     <!-- JS -->
     <script type="text/javascript" src="assets/js/header.js"></script>
     <script type="text/javascript" src="assets/js/footer.js"></script>

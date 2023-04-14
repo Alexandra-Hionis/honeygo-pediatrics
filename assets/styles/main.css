@@ -1048,12 +1048,6 @@ quote {
   }
 }
 
-.providers__container:nth-child(even) {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
 @media screen and (min-width: 768px) {
   .providers__container:nth-child(even) {
     -ms-grid-columns: 2fr 1fr;
@@ -1081,6 +1075,12 @@ quote {
 @media (min-width: 576px) and (max-width: 768px) {
   .providers img {
     width: 50%;
+  }
+}
+
+@media (max-width: 576px) {
+  .providers img {
+    width: 60%;
   }
 }
 

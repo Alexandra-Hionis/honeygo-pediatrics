@@ -1105,6 +1105,17 @@ quote {
   }
 }
 
+.highlight {
+  background-color: #ededec;
+  padding: 4px;
+  border-radius: 10px;
+}
+
+.highlight span {
+  color: #329bac;
+  font-weight: bold;
+}
+
 .contact a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;

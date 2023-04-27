@@ -1,5 +1,6 @@
 .footer {
   padding: 5vh 0;
+  border-top: 4px solid $lightblue;
 }
 .footer-top-portion {
   display: grid;
@@ -67,5 +68,22 @@
     text-decoration: underline;
     color: black;
     margin-left: 5px;
+  }
+}
+
+.to-top {
+  text-align: center;
+  &__button {
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background: $gradient-blue;
+    color: white;
+    font-family: $raleway;
+    border-radius: 4px;
+    margin-top: -20px;
+    height: 50px;
+    width: 50px;
+    position: absolute;
   }
 }

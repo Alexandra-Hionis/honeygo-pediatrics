@@ -39,6 +39,10 @@ ul {
   }
 }
 
+button {
+  cursor: pointer;
+}
+
 .button {
   color: white;
   font-family: "Montserrat", sans-serif;
@@ -562,6 +566,7 @@ p {
 
 .footer {
   padding: 5vh 0;
+  border-top: 4px solid #329bac;
 }
 
 .footer-top-portion {
@@ -661,6 +666,25 @@ p {
   text-decoration: underline;
   color: black;
   margin-left: 5px;
+}
+
+.to-top {
+  text-align: center;
+}
+
+.to-top__button {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background: -webkit-gradient(linear, left top, right top, from(#25bdbe), color-stop(55%, #3498ab));
+  background: linear-gradient(90deg, #25bdbe 0%, #3498ab 55%);
+  color: white;
+  font-family: "Raleway", sans-serif;
+  border-radius: 4px;
+  margin-top: -20px;
+  height: 50px;
+  width: 50px;
+  position: absolute;
 }
 
 .showcase {

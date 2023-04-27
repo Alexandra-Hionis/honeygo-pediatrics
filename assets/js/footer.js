@@ -4,7 +4,17 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <!-- Footer -->
-    <section class="footer gradient-gray">
+    <section>
+    <div class="to-top">
+    <!-- to top button -->
+    <a href="#top">
+      <button class="to-top__button">
+      <i class="fa-solid fa-angle-up"></i>
+      </button>
+    </a>
+    </div>
+    <footer class="footer gradient-gray">
+   
       <div class="footer-top-portion">
         <!-- Contact -->
         <div class="footer-item-container"><div class="footer-item">
@@ -55,8 +65,8 @@ class Footer extends HTMLElement {
      
       <div class="footer-bottom-section"><img class="footer-logo" src="assets/images/logo.svg"/></div>
       <div class="footer-bottom-section copyright">&copy; Copyright 2022 <a href="https://alexandrahionis.com" target="_blank"> AH Websites</a>
-      </section>
-  
+      </footer>
+  </section>
         `;
   }
 }

@@ -1,19 +1,59 @@
-.swiper-container {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
+.swiper-providers {
+  .mySwiper-providers {
+    margin: 50px auto;
+    width: 320px;
+    height: 340px;
+  }
+
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    // font-weight: bold;
+    flex-direction: column;
+    // color: $lightblue;
+    img {
+      width: 200px;
+    }
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: $darkblue;
+  }
 }
-.swiper-wrapper {
-  margin-top: 10vh;
-}
-.swiper-slide {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: grid;
-  text-align: center;
-}
-.swiper-button-prev,
-.swiper-button-next {
-  color: white;
+
+.swiper-testimonials {
+  .mySwiper-testimonials {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .swiper-wrapper {
+    margin-top: 10vh;
+  }
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-align: center;
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: white;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal,
+  .swiper-pagination-custom,
+  .swiper-pagination-fraction {
+    bottom: 100px;
+  }
+  .swiper-pagination-bullet {
+    // background-color: #ffffff !important;
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active {
+    background-color: #ffffff !important;
+  }
 }

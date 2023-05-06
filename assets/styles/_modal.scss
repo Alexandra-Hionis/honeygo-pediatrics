@@ -1,5 +1,5 @@
 .modal {
-  //   display: none;
+  display: none;
   position: fixed;
   z-index: 999;
   left: 0;
@@ -8,16 +8,33 @@
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 500px;
-  text-align: center;
+  &__content {
+    background: url("../images/modal-background.jpg");
+    background-size: cover;
+    margin: 15% auto;
+    padding: 45px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+  }
+  &__options {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 50px;
+    @media screen and (min-width: $tablet) {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  h1 {
+    margin-top: 50px;
+  }
+  p {
+    color: black;
+  }
+  a {
+    text-decoration: none;
+  }
 }
 
 .close {

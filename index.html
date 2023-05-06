@@ -24,6 +24,8 @@
     />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/styles/main.css" />
+    <!-- Load in head -->
+    <script type="text/javascript" src="assets/js/header.js"></script>
     <title>Honeygo Pediatrics</title>
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <meta
@@ -36,6 +38,18 @@
     />
   </head>
   <body>
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Welcome!</h1>
+        <p>
+          This is a modal pop-up that appears only once every hour per web
+          browser session.
+        </p>
+      </div>
+    </div>
+
     <!-- Header Nav Template -->
     <main-header></main-header>
 
@@ -430,8 +444,8 @@
       );
     </script>
     <!-- JS -->
-    <script type="text/javascript" src="assets/js/header.js"></script>
     <script type="text/javascript" src="assets/js/footer.js"></script>
+    <script type="text/javascript" src="assets/js/modal.js"></script>
     <script type="text/javascript" src="assets/js/script.js"></script>
   </body>
 </html>

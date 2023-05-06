@@ -78,10 +78,4 @@ function toggleDropdownMenu() {
     services.style.backgroundColor = "#e5e7eb";
     servicesText.style.color = "black";
   }
-  // hide and shoe on resize
-  if (window.matchMedia("(max-width: 768px)").matches) {
-    /* the viewport is less than or exactly 768 pixels wide */
-  } else {
-    /* the viewport is more than 768 pixels wide */
-  }
 }

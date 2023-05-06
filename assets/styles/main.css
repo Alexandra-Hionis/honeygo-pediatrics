@@ -1254,7 +1254,7 @@ quote {
       -ms-flex: 50%;
           flex: 50%;
   max-width: 50%;
-  padding: 0 4px;
+  padding: 10px 4px 40px 4px;
 }
 
 .column img {
@@ -1286,5 +1286,10 @@ quote {
 
 .our-office {
   text-align: center;
+}
+
+#map2 {
+  border: #e59659 2px solid;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=main.css.map */

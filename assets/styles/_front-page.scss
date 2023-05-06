@@ -1,5 +1,5 @@
 // Hero Section
-.showcase {
+.welcome {
   background-image: url(../images/hero-home.jpg);
   background-size: cover;
   background-position: center;
@@ -12,29 +12,29 @@
     grid-template-columns: 400px;
     padding: 90px 90px 90px 20px;
   }
+  &__statement {
+    line-height: 1.2;
+    color: black;
+    text-align: center;
+    font-family: $montserrat;
+    font-size: 24px;
+    text-align: center;
+    @media screen and (min-width: $tablet) {
+      font-size: 20px;
+      text-align: left;
+    }
+  }
+  &__transparent-box {
+    background: rgba(245, 246, 247, 0.8);
+    padding: 20px;
+    margin-top: -20px;
+    border-radius: 10px;
+  }
   h1 {
     text-align: center;
     @media screen and (min-width: $tablet) {
       text-align: left;
     }
-  }
-}
-.transparent {
-  background: rgba(245, 246, 247, 0.8);
-  padding: 20px;
-  margin-top: -20px;
-  border-radius: 10px;
-}
-.welcome-statement {
-  line-height: 1.2;
-  color: black;
-  text-align: center;
-  font-family: $montserrat;
-  font-size: 24px;
-  text-align: center;
-  @media screen and (min-width: $tablet) {
-    font-size: 20px;
-    text-align: left;
   }
 }
 

@@ -744,7 +744,7 @@ p {
   position: absolute;
 }
 
-.showcase {
+.welcome {
   background-image: url(../images/hero-home.jpg);
   background-size: cover;
   background-position: center;
@@ -758,31 +758,14 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .showcase {
+  .welcome {
     -ms-grid-columns: 400px;
         grid-template-columns: 400px;
     padding: 90px 90px 90px 20px;
   }
 }
 
-.showcase h1 {
-  text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-  .showcase h1 {
-    text-align: left;
-  }
-}
-
-.transparent {
-  background: rgba(245, 246, 247, 0.8);
-  padding: 20px;
-  margin-top: -20px;
-  border-radius: 10px;
-}
-
-.welcome-statement {
+.welcome__statement {
   line-height: 1.2;
   color: black;
   text-align: center;
@@ -792,8 +775,25 @@ p {
 }
 
 @media screen and (min-width: 768px) {
-  .welcome-statement {
+  .welcome__statement {
     font-size: 20px;
+    text-align: left;
+  }
+}
+
+.welcome__transparent-box {
+  background: rgba(245, 246, 247, 0.8);
+  padding: 20px;
+  margin-top: -20px;
+  border-radius: 10px;
+}
+
+.welcome h1 {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .welcome h1 {
     text-align: left;
   }
 }

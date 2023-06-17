@@ -1129,19 +1129,6 @@ quote {
   }
 }
 
-.providers__container:nth-child(even) {
-  -webkit-box-ordinal-group: 3;
-      -ms-flex-order: 2;
-          order: 2;
-}
-
-@media screen and (min-width: 769px) {
-  .providers__container:nth-child(even) {
-    -ms-grid-columns: 2fr 1fr;
-        grid-template-columns: 2fr 1fr;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .providers__img-wrapper {
     display: -webkit-box;

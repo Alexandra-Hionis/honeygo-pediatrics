@@ -9,12 +9,6 @@
     @media screen and (min-width: $tablet) {
       grid-template-columns: 1fr 2fr;
     }
-    // &:nth-child(even) {
-    //   order: 2;
-    //   @media screen and (min-width: 769px) {
-    //     grid-template-columns: 2fr 1fr;
-    //   }
-    // }
   }
   &__img-wrapper {
     @media screen and (max-width: $tablet) {

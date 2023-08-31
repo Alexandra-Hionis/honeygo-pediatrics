@@ -28,17 +28,24 @@
   }
   h1 {
     margin-top: 50px;
+    font-size: 26px;
+    @media screen and (min-width: $tablet) {
+      font-size: 36px;
+    }
   }
   p {
     color: black;
   }
+
   a {
     text-decoration: none;
   }
 }
-
+.modal__options a:hover p {
+  font-weight: bold;
+}
 .close {
-  color: #aaa;
+  color: black;
   float: right;
   font-size: 28px;
   font-weight: bold;

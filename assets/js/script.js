@@ -1,15 +1,5 @@
 // ==============================================
 // Swiper.js
-// providers
-var swiper = new Swiper(".mySwiper-providers", {
-  cssMode: true,
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
-  mousewheel: true,
-  keyboard: true,
-});
 // testimonials
 var swiper = new Swiper(".mySwiper-testimonials", {
   speed: 500,

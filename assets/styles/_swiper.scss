@@ -1,28 +1,3 @@
-.swiper-providers {
-  .mySwiper-providers {
-    margin: 50px auto;
-    width: 320px;
-    height: 340px;
-  }
-
-  .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    // font-weight: bold;
-    flex-direction: column;
-    // color: $lightblue;
-    img {
-      width: 200px;
-    }
-  }
-  .swiper-button-prev,
-  .swiper-button-next {
-    color: $darkblue;
-  }
-}
-
 .swiper-testimonials {
   .mySwiper-testimonials {
     width: 100%;

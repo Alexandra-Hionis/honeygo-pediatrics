@@ -35,3 +35,17 @@ const marker = new mapboxgl.Marker()
   .addTo(map);
 
 // Map2 script on contact page
+
+// ==============================================
+// Copyright
+
+// Get the current year using the Date object
+const currentYear = new Date().getFullYear();
+
+// Find the <span> element by its id
+const copyrightYearSpan = document.getElementById('copyright-year');
+
+// Set the text content of the <span> to the current year
+if (copyrightYearSpan) {
+    copyrightYearSpan.textContent = currentYear;
+}

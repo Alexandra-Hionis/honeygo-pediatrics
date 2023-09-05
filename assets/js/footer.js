@@ -64,7 +64,7 @@ class Footer extends HTMLElement {
       </div>
      
       <div class="footer-bottom-section"><img class="footer-logo" src="assets/images/logo.svg"/></div>
-      <div class="footer-bottom-section copyright">&copy; Copyright 2022 <a href="https://alexandra-hionis-portfolio.herokuapp.com/" target="_blank"> AH Websites</a>
+      <div class="footer-bottom-section copyright">&copy; <span id="copyright-year"></span> <a href="https://alexandra-hionis-portfolio.herokuapp.com/" target="_blank"> AH Websites</a>
       </footer>
   </section>
         `;

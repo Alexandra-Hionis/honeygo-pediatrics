@@ -1,3 +1,15 @@
 # honeygo-pediatrics
 
-This is a rebuild of Honeygo Pediatrics. Code will be much cleaner. Mostly for using new components and incorporating Sass. Also for testing Heroku build with Sass.
+Welcome to Honeygo Pediatrics Webiste!
+
+https://www.honeygopediatricsllc.com/
+
+This is for a small private Pediatrician located in Maryland.
+
+Built with HTML, scss, and Javascript.
+
+Includes:
+
+Swiper.js
+
+Mapbox

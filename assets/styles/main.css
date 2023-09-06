@@ -61,7 +61,7 @@ button {
 }
 
 .button:hover {
-  background: #f7941e;
+  background: #329bac;
 }
 
 .center {
@@ -714,6 +714,75 @@ p {
   position: absolute;
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal__content {
+  background: url("../images/modal-background.jpg");
+  background-size: cover;
+  margin: 15% auto;
+  padding: 45px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 1000px;
+  text-align: center;
+}
+
+.modal__options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  margin-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal__options {
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.modal h1 {
+  margin-top: 50px;
+  font-size: 26px;
+}
+
+@media screen and (min-width: 768px) {
+  .modal h1 {
+    font-size: 36px;
+  }
+}
+
+.modal p {
+  color: black;
+}
+
+.modal a {
+  text-decoration: none;
+}
+
+.modal__options a:hover p {
+  font-weight: bold;
+}
+
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .welcome {
   background-image: url(../images/home-hero.jpg);
   background-size: cover;
@@ -1259,74 +1328,5 @@ quote {
 #map2 {
   border: #e59659 2px solid;
   border-radius: 10px;
-}
-
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 999;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
-.modal__content {
-  background: url("../images/modal-background.jpg");
-  background-size: cover;
-  margin: 15% auto;
-  padding: 45px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 1000px;
-  text-align: center;
-}
-
-.modal__options {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  margin-top: 50px;
-}
-
-@media screen and (min-width: 768px) {
-  .modal__options {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-  }
-}
-
-.modal h1 {
-  margin-top: 50px;
-  font-size: 26px;
-}
-
-@media screen and (min-width: 768px) {
-  .modal h1 {
-    font-size: 36px;
-  }
-}
-
-.modal p {
-  color: black;
-}
-
-.modal a {
-  text-decoration: none;
-}
-
-.modal__options a:hover p {
-  font-weight: bold;
-}
-
-.close {
-  color: black;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

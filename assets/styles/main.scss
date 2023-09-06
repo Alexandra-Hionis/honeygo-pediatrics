@@ -2,11 +2,15 @@
 @import "global";
 @import "fonts";
 @import "typography";
-@import "swiper";
-@import "nav";
-@import "footer";
-@import "front-page";
-@import "staff";
-@import "immunizations";
-@import "contact";
-@import "modal";
+
+// Components
+@import "components/swiper";
+@import "components/nav";
+@import "components/footer";
+@import "components/modal";
+
+// pages
+@import "pages/front-page";
+@import "pages/staff";
+@import "pages/immunizations";
+@import "pages/contact";

@@ -893,17 +893,16 @@ p {
 .card-container {
   position: relative;
   text-align: center;
-  color: white;
 }
 
 .card-container img {
-  -webkit-filter: brightness(80%);
-          filter: brightness(80%);
+  -webkit-filter: brightness(70%);
+          filter: brightness(70%);
 }
 
-.card-container:hover {
-  -webkit-filter: brightness(75%);
-          filter: brightness(75%);
+.card-container:hover img {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
 }
 
 .card-title {
@@ -916,6 +915,8 @@ p {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-size: 24px;
+  color: white;
+  text-shadow: 1px 1px 2px gray;
 }
 
 .callout-section {

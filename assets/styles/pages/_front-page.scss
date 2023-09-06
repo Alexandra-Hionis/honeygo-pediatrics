@@ -9,7 +9,7 @@
   padding: 40px;
   height: 100%;
   @media screen and (min-width: $tablet) {
-    grid-template-columns: 400px;
+    // grid-template-columns: 400px;
     padding: 90px 90px 90px 20px;
   }
   &__statement {
@@ -29,6 +29,10 @@
     padding: 20px;
     margin-top: -20px;
     border-radius: 10px;
+    max-width: 100%;
+    @media screen and (min-width: $tablet) {
+      max-width: 500px;
+    }
   }
   h1 {
     text-align: center;

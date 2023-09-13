@@ -877,22 +877,8 @@ p {
 }
 
 .pediatricians-section img {
-  max-width: 300px;
-  height: 300px;
-}
-
-@media screen and (min-width: 768px) {
-  .pediatricians-section img {
-    max-width: 350px;
-    height: 350px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .pediatricians-section img {
-    max-width: 500px;
-    height: 500px;
-  }
+  max-width: 100%;
+  height: auto;
 }
 
 .pediatricians-section h1 {

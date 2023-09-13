@@ -36,7 +36,7 @@ class Footer extends HTMLElement {
                 <span>Tuesday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 AM - 5:00 PM</span>
               </div>
               <div>
-                <span>Wednesday &nbsp; &nbsp; &nbsp; 9:00 AM - 8:00 PM</span>
+                <span>Wednesday &nbsp; &nbsp; &nbsp; 9:00 AM - 5:00 PM</span>
               </div>
               <div>
                 <span>Thursday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 AM - 5:00 PM</span>

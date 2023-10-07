@@ -685,6 +685,16 @@ p {
   margin-left: 5px;
 }
 
+.copyright p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+#copyright-year {
+  margin-right: 5px;
+}
+
 .to-top {
   text-align: center;
 }

@@ -69,8 +69,15 @@
     color: black;
     margin-left: 5px;
   }
+  p{
+    font-family: $montserrat;
+  font-size: 12px;
+  margin: 0;
+  }
 }
-
+#copyright-year{
+  margin-right: 5px;
+}
 .to-top {
   text-align: center;
   .fa-angle-up {

@@ -64,7 +64,11 @@ class Footer extends HTMLElement {
       </div>
      
       <div class="footer-bottom-section"><img class="footer-logo" src="assets/images/logo.svg"/></div>
-      <div class="footer-bottom-section copyright">&copy; <span id="copyright-year"></span> <a href="https://alexandra-hionis-portfolio.herokuapp.com/" target="_blank"> AH Websites</a>
+      <div class="footer-bottom-section copyright">&copy; <span id="copyright-year"></span> Honeygo Pediatrics LLC </div>
+      <div class="footer-bottom-section copyright">
+      <p>Designed and Developed by</p>
+      <a href="https://alexandra-hionis-portfolio.herokuapp.com/" target="_blank"> Alexandra Hionis</a>
+      </div>
       </footer>
   </section>
         `;

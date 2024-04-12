@@ -19,11 +19,15 @@
     text-align: center;
   }
   &__options {
-    display: grid;
-    grid-template-columns: 1fr;
+    // display: grid;
+    // grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     margin-top: 50px;
+    flex-direction: column;
     @media screen and (min-width: $tablet) {
-      grid-template-columns: repeat(3, 1fr);
+      flex-direction: row;
     }
   }
   h1 {
@@ -39,6 +43,9 @@
 
   a {
     text-decoration: none;
+    @media screen and (min-width: $tablet) {
+      flex: 1 0 calc(33.33% - 10px);
+    }
   }
 }
 .modal__options a:hover p {

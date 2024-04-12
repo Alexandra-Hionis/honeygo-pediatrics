@@ -4,7 +4,7 @@ class Footer extends HTMLElement {
   connectedCallback() {
     this.innerHTML = `
     <!-- Footer -->
-    <section>
+    <section class="to-top-container">
     <div class="to-top">
     <!-- to top button -->
     <a href="#top">
@@ -48,6 +48,7 @@ class Footer extends HTMLElement {
                 <span>Saturday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 AM - 12:30 PM</span>
               </div>
               <p class="hours-disclaimer">** Rotating Mondays for evening hours (5PM - 8PM).</p>
+              <p class="hours-disclaimer"><strong>Walk in hours for sick patients Monday - Saturday 9 AM - 11 AM</strong></p>
             </div>
             </div>
           </div>

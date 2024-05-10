@@ -3,7 +3,7 @@ class Header extends HTMLElement {
     this.innerHTML = `
     <section class="header">
     <div>
-      <img class="logo" src="assets/images/logo.svg" />
+      <a href="/"> <img class="logo" src="assets/images/logo.svg" /></a>
     </div>
     <div class="header-left-content">
       <p><strong>There for you when you need us</strong></p>

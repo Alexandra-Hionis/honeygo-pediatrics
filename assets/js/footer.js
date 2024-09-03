@@ -48,7 +48,11 @@ class Footer extends HTMLElement {
                 <span>Saturday &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 9:00 AM - 12:30 PM</span>
               </div>
               <p class="hours-disclaimer">** Rotating Mondays for evening hours (5PM - 8PM).</p>
-              <p class="hours-disclaimer"><strong>Walk in hours for sick patients <br> 9 AM - 11 AM and 1 PM - 2:30 PM Monday - Friday<br>9 AM - 10:30 AM Saturdays</strong></p>
+              <p class="hours-disclaimer"><strong
+              >walk in hours for sick patients with acute / urgent care needs:
+              <br />9 AM - 10 AM and 1 PM - 2 PM Monday - Friday <br />9 AM - 10 AM
+              Saturdays
+            </strong></p>
             </div>
             </div>
           </div>

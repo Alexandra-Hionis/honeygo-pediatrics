@@ -48,7 +48,7 @@ class Footer extends HTMLElement {
               <p class="hours-disclaimer">** Rotating Mondays for evening hours (5PM - 8PM).</p>
               <p class="hours-disclaimer"><strong
               >walk in hours for sick patients with acute / urgent care needs:
-              <br />9 AM - 10 AM and 1 PM - 2 PM Monday - Friday <br />9 AM - 10 AM
+              <br />9 AM - 10 AM Monday - Friday <br />9 AM - 10 AM
               Saturdays
             </strong></p>
             </div>

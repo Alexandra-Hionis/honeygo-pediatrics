@@ -4,7 +4,11 @@
   "description": "This is a rebuild of Honeygo Pediatrics. Code will be much cleaner. Mostly for using new components and incorporating Sass. Also for testing Heroku build with Sass.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "npm run watch:js & npm run watch:scss & npm run server",
+    "watch:js": "nodemon --exec \"npm run build\" --watch ./assets/js",
+    "watch:scss": "webpack --watch --config webpack.config.js",
+    "build": "webpack",
+    "server": "node app.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +24,20 @@
   "dependencies": {
     "accessibility": "^4.5.6",
     "express": "^4.18.2",
+    "mapbox-gl": "^3.8.0",
     "node": "^19.3.0",
     "nodemon": "^2.0.20",
     "sass": "^1.57.1",
     "swiper": "^8.4.5"
+  },
+  "devDependencies": {
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "mini-css-extract-plugin": "^2.9.2",
+    "sass": "^1.81.0",
+    "sass-loader": "^16.0.3",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.96.1",
+    "webpack-cli": "^5.1.4"
   }
 }

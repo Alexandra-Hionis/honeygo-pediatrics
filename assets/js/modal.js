@@ -40,7 +40,6 @@ class Modal extends HTMLElement {
         </div>
       </div>
     </div>
-
         `;
   }
 }
@@ -54,23 +53,28 @@ const lastModalTime = sessionStorage.getItem("lastModalTime");
 const currentTime = new Date().getTime();
 const timeSinceLastModal = currentTime - lastModalTime;
 
-if (!modalDisplayed || timeSinceLastModal > 3600000) {
+// Check if the modal container exists before attempting to show or close the modal
+const modalContainer = document.getElementById("myModal");
+const closeBtn = modalContainer ? modalContainer.querySelector(".close") : null;
+
+if ((modalContainer && !modalDisplayed) || timeSinceLastModal > 3600000) {
   // Show the modal after 2 seconds
   setTimeout(() => {
-    const modal = document.getElementById("myModal");
-    modal.style.display = "block";
-
-    // Set a flag in session storage to indicate that the modal has been displayed
-    sessionStorage.setItem("modalDisplayed", true);
-
-    // Set the current timestamp as the last modal time
-    sessionStorage.setItem("lastModalTime", currentTime);
+    if (modalContainer) {
+      modalContainer.style.display = "block";
+      // Set a flag in session storage to indicate that the modal has been displayed
+      sessionStorage.setItem("modalDisplayed", true);
+      // Set the current timestamp as the last modal time
+      sessionStorage.setItem("lastModalTime", currentTime);
+    }
   }, 2000);
 }
 
-// Close the modal when the 'x' is clicked
-const closeBtn = document.querySelector(".close");
-closeBtn.addEventListener("click", () => {
-  const modal = document.getElementById("myModal");
-  modal.style.display = "none";
-});
+// Close the modal when the 'x' is clicked (if modal exists)
+if (closeBtn) {
+  closeBtn.addEventListener("click", () => {
+    if (modalContainer) {
+      modalContainer.style.display = "none";
+    }
+  });
+}

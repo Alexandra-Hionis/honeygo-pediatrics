@@ -23,7 +23,7 @@ class Header extends HTMLElement {
     <ul class="menu">
       <li><a href="/index.html">Home</a></li>
       <li><div class="dropdown" id="services">
-        <div onclick="toggleDropdownMenu()" class="dropbtn" id="services-text">Services 
+        <div class="dropbtn" id="services-trigger">Services 
           <i class="fa fa-caret-down"></a></i>
         </div>
         <div class="dropdown-content" id="dropdown-content">

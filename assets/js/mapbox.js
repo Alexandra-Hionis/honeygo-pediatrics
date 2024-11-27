@@ -14,13 +14,13 @@ const marker = new mapboxgl.Marker()
   .setLngLat([-76.47251, 39.37124])
   .addTo(map);
 
-// const map2 = new mapboxgl.Map({
-//   container: "map2",
-//   style: "mapbox://styles/mapbox/streets-v11",
-//   center: [-76.47251, 39.37124], // starting position [lng, lat]
-//   zoom: 14,
-// });
+const map2 = new mapboxgl.Map({
+  container: "map2",
+  style: "mapbox://styles/mapbox/streets-v11",
+  center: [-76.47251, 39.37124], // starting position [lng, lat]
+  zoom: 14,
+});
 
-// const marker2 = new mapboxgl.Marker()
-//   .setLngLat([-76.47251, 39.37124])
-//   .addTo(map2);
+const marker2 = new mapboxgl.Marker()
+  .setLngLat([-76.47251, 39.37124])
+  .addTo(map2);

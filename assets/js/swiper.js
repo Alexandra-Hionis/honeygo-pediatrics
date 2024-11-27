@@ -4,7 +4,7 @@ import "swiper/swiper-bundle.css";
 // Import Swiper functionality
 import Swiper from "swiper/bundle";
 
-var swiper = new Swiper(".mySwiper-testimonials", {
+let swiper = new Swiper(".mySwiper-testimonials", {
   speed: 500,
 
   autoplay: {

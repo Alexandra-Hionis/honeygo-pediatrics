@@ -62,20 +62,3 @@ class Header extends HTMLElement {
 }
 
 customElements.define("main-header", Header);
-
-function toggleDropdownMenu() {
-  const dropdown = document.getElementById("dropdown-content");
-  const services = document.getElementById("services");
-  const servicesText = document.getElementById("services-text");
-  if (dropdown.style.display == "block") {
-    // if is dropdown displayed, hide it
-    dropdown.style.display = "none";
-    services.style.backgroundColor = "transparent";
-    servicesText.style.color = "white";
-  } else {
-    // if is dropdown hidden, display it
-    dropdown.style.display = "block";
-    services.style.backgroundColor = "#e5e7eb";
-    servicesText.style.color = "black";
-  }
-}

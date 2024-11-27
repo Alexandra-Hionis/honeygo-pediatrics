@@ -24,6 +24,13 @@ module.exports = {
           "sass-loader", // Compiles Sass to CSS
         ],
       },
+      {
+        test: /\.(jpg|jpeg|png|gif|svg)$/, // Match image files
+        type: "asset", // Webpack 5 asset module type
+        generator: {
+          filename: "images/[name][ext]", // Output path and filename pattern
+        },
+      },
     ],
   },
   plugins: [
@@ -31,5 +38,5 @@ module.exports = {
       filename: "styles.css",
     }),
   ],
-  mode: "development",
+  mode: "development", // Change to "production" for production build
 };

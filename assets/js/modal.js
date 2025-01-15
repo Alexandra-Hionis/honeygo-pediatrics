@@ -37,6 +37,10 @@ class Modal extends HTMLElement {
               <strong> 9 AM - 10 AM Saturdays </strong>
             </p>
           </a>
+          <a>
+            <i class="fa-solid fa-check service-icon"></i>
+            <p>Now Offering Behavioral Health to patients</p>
+          </a>
         </div>
       </div>
     </div>

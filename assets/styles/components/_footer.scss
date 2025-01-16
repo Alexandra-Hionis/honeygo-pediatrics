@@ -103,3 +103,66 @@
     position: absolute;
   }
 }
+
+.announcement-toggle {
+  display: none;
+}
+
+/* Announcement Section */
+.announcement {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1099;
+  transform: translateY(0);
+  transition: transform 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  flex-direction: row;
+
+  @media screen and (max-width: 600px) {
+    flex-direction: column;
+    
+  }
+
+  svg {
+    max-width: 40px;
+    fill: #329bac;
+  }
+
+  label {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+
+
+/* Close Button */
+.close-btn {
+  background: none;
+  border: none;
+  color: black;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 0 10px;
+  margin: 0;
+  line-height: 1;
+  transition: opacity 0.3s ease;
+  display: flex;
+  justify-content: end;
+}
+
+.close-btn:hover {
+  opacity: 0.7;
+}
+
+/* When the checkbox is checked, hide the announcement */
+.announcement-toggle:checked + .announcement {
+  transform: translateY(100%);
+}

@@ -11,36 +11,39 @@ class Modal extends HTMLElement {
           <a class="in-text-link" href="tel:4109338101">410-933-8101</a>
         </p>
         <div class="modal__options">
-          <a href="/new-patients.html">
-            <i class="fa-regular fa-face-smile service-icon"></i>
-            <p>We're accepting new patients</p>
-          </a>
+        <a href="/contact.html">
+        <i class="fa-solid fa-thermometer service-icon"></i>
+        <p class="service-p mont">
+          Walk in hours for sick patients with acute / urgent care needs
+        </p>
+        <p class="service-p mont">
+          <strong> 9 AM - 10 AM Monday - Friday </strong>
+        </p>
+        <p class="service-p mont">
+          <strong> 9 AM - 10 AM Saturdays </strong>
+        </p>
+      </a>
+      <a>
+      <i class="fa-solid fa-check service-icon"></i>
+      <p>Now Offering Behavioral Health to patients</p>
+    </a>
           <a href="/immunizations-and-shots.html">
             <i class="fa-solid fa-syringe service-icon"></i>
             <p class="service-p mont">
-              We offer updated COVID-19 vaccinations and Flu vaccinations
+             COVID-19 vaccinations<br>
+              Flu vaccinations<br>
+              RSV vaccinations available to infants and children from birth to 24
+              months of age
             </p>
           </a>
-          <a href="virtual-medical-services.html">
-            <i class="fa-solid fa-house-laptop service-icon"></i>
-            <p>Ask us about telehealth visits!</p>
-          </a>
-          <a href="/contact.html">
-            <i class="fa-solid fa-thermometer service-icon"></i>
-            <p class="service-p mont">
-              Walk in hours for sick patients with acute / urgent care needs
-            </p>
-            <p class="service-p mont">
-              <strong> 9 AM - 10 AM Monday - Friday </strong>
-            </p>
-            <p class="service-p mont">
-              <strong> 9 AM - 10 AM Saturdays </strong>
-            </p>
-          </a>
-          <a>
-            <i class="fa-solid fa-check service-icon"></i>
-            <p>Now Offering Behavioral Health to patients</p>
-          </a>
+          <a href="/new-patients.html">
+          <i class="fa-regular fa-face-smile service-icon"></i>
+          <p>We're accepting new patients</p>
+        </a>
+        <a href="virtual-medical-services.html">
+        <i class="fa-solid fa-house-laptop service-icon"></i>
+        <p>Ask us about telehealth visits!</p>
+      </a>
         </div>
       </div>
     </div>

@@ -17,10 +17,10 @@ class Modal extends HTMLElement {
           Walk in hours for sick patients with acute / urgent care needs
         </p>
         <p class="service-p mont">
-          <strong> 9 AM - 10 AM Monday - Friday </strong>
+          <strong> 9 AM - 10:30 AM and 1:30 - 2:30 PM Monday - Friday </strong>
         </p>
         <p class="service-p mont">
-          <strong> 9 AM - 10 AM Saturdays </strong>
+          <strong> 9 AM - 10:30 AM Saturdays </strong>
         </p>
       </a>
       <a>

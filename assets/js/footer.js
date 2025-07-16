@@ -63,7 +63,6 @@ class Footer extends HTMLElement {
               >walk in hours for sick patients with acute / urgent care needs:
               <br />9 AM - 10:30 AM and 1:30 - 2:30 PM Monday - Friday 
           <br />9 AM - 10:30 AM Saturdays
-              Saturdays
             </strong></p>
             </div>
             </div>

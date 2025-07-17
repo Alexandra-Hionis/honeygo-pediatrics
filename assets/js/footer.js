@@ -60,7 +60,7 @@ class Footer extends HTMLElement {
               </div>
               <p class="hours-disclaimer">** Rotating Mondays for evening hours (5PM - 8PM).</p>
               <p class="hours-disclaimer"><strong
-              >walk in hours for sick patients with acute / urgent care needs:
+              >In addition to regular scheduled visits, we offer walk in hours for acute / urgent needs. See walk in hours below:
               <br />9 AM - 10:30 AM and 1:30 - 2:30 PM Monday - Friday 
           <br />9 AM - 10:30 AM Saturdays
             </strong></p>

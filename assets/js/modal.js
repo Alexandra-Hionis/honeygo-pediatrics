@@ -14,7 +14,7 @@ class Modal extends HTMLElement {
         <a href="/contact.html">
         <i class="fa-solid fa-thermometer service-icon"></i>
         <p class="service-p mont">
-          Walk in hours for sick patients with acute / urgent care needs
+          In addition to regular scheduled visits, we offer walk in hours for acute / urgent needs. See walk in hours below:
         </p>
         <p class="service-p mont">
           <strong> 9 AM - 10:30 AM and 1:30 - 2:30 PM Monday - Friday </strong>

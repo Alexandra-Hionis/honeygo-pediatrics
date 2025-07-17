@@ -99,8 +99,8 @@
 }
 
 .menu-button,
-.menu-button::before,
-.menu-button::after {
+.menu-button:before,
+.menu-button:after {
   display: block;
   background-color: #fff;
   position: absolute;
@@ -110,17 +110,17 @@
   border-radius: 2px;
 }
 
-.menu-button::before {
+.menu-button:before {
   content: "";
   margin-top: -8px;
 }
 
-.menu-button::after {
+.menu-button:after {
   content: "";
   margin-top: 8px;
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::before {
+#menu-toggle:checked + .menu-button-container .menu-button:before {
   margin-top: 0px;
   transform: rotate(405deg);
 }
@@ -129,7 +129,7 @@
   background: rgba(255, 255, 255, 0);
 }
 
-#menu-toggle:checked + .menu-button-container .menu-button::after {
+#menu-toggle:checked + .menu-button-container .menu-button:after {
   margin-top: 0px;
   transform: rotate(-405deg);
 }
